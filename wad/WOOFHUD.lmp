@@ -1,0 +1,50 @@
+//copy this to autoload/doom-all for alternative HUD arrangements
+
+
+//REMARKS
+// HUD modes without a paragraph remain unchanged. 
+//
+// Widgets which are not mentioned in a paragraph will never be visible in the respective HUD mode. 
+// It is a good idea to always include the five widgets which make up the hud 0 paragraph in any other paragraph.
+//
+// The "title" widget is only visible if the Automap is enabled. 
+// The "monsec", "sttime" and "coord" widgets are only visible if explicitly enabled in the Options menu (separately for Automap and HUD). 
+// The "fps" widget is only visible if the SHOWFPS cheat is enabled.
+
+
+//paragraph for "minimal mode" hud, which by default would not show any information
+hud 0
+title topleft
+coords topright
+fps topright
+stats bottomright
+time bottomright
+
+
+//paragraph for "compact mode" hud, which by default would show all information in the lower left corner
+hud 1
+title topleft
+coords topright
+fps topright
+armor bottomleft
+health bottomleft
+ammo bottomleft
+weapons bottomleft
+keys bottomleft
+stats bottomright
+time bottomright
+
+
+//paragraph for "distributed mode" hud, which by default would show information spread across all corners
+hud 2
+title topleft
+stats topright
+time topright
+coords topright
+fps topright
+keys bottomleft
+health bottomleft
+armor bottomleft
+weapons bottomright
+ammo bottomright
+

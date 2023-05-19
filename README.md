@@ -13,13 +13,13 @@ Modern style:
 ![README](https://raw.githubusercontent.com/liPillON/woofhud_tweaks/main/MODERN.png)
 
 
-Features:
+## Features:
 - secondary, "modern" hud style
 - new arrangement for mapname/stats/time widgets
 - tweaked gfx lumps (which has since been incorporated in Woof!)
 
 
-Downloads:
+## Downloads:
 - [this](https://github.com/liPillON/woofhud_tweaks/releases/latest) is the latest release.
 - [this](https://github.com/liPillON/woofhud_tweaks/archive/refs/heads/main.zip) is the current repository snapshot.
 

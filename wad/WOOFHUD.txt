@@ -1,5 +1,7 @@
 //copy this to autoload/doom-all for alternative HUD arrangements
 
+//REFERENCE
+// https://github.com/fabiangreffrath/woof/blob/master/docs/woofhud.md
 
 //REMARKS
 // HUD modes without a paragraph remain unchanged.
@@ -12,39 +14,39 @@
 // The "fps" widget is only visible if the SHOWFPS cheat is enabled.
 
 
-//paragraph for "minimal mode" hud, which by default would not show any information
+//paragraph for "minimal mode" hud, which by default would not show any information about the player
 hud 0
-title topleft
-coords topleft
-fps topleft
-stats topright
-time topright
+stats   lowerleft
+time    lowerleft
+title   lowerright
+coords  lowerright
+fps     lowerright
 
 
 //paragraph for "compact mode" hud, which by default would show all information in the lower left corner
 hud 1
-title topleft
-coords topleft
-fps topleft
-stats topright
-time topright
-armor bottomleft
-health bottomleft
-ammo bottomleft
-weapons bottomleft
-keys bottomleft
+armor   lowerleft
+health  lowerleft
+ammo    lowerleft
+weapons lowerleft
+keys    lowerleft
+stats   lowerleft
+time    lowerleft
+title   lowerright
+coords  lowerright
+fps     lowerright
 
 
 //paragraph for "distributed mode" hud, which by default would show information spread across all corners
 hud 2
-title topleft
-coords topleft
-fps topleft
-stats topright
-time topright
-ammo bottomleft
-weapons bottomleft
-keys bottomleft
-health bottomright
-armor bottomright
+ammo    lowerleft
+weapons lowerleft
+keys    lowerleft
+stats   lowerleft
+time    lowerleft
+health  lowerright
+armor   lowerright
+title   lowerright
+coords  lowerright
+fps     lowerright
 
